@@ -3,12 +3,12 @@ html{
 }
 
 textarea{
-	color: white;
-	background-color: grey;
+
 }
 
-#content.right{
-	position:absolute;
-	right:0px;
-	width:300px
+#content{
+	color: white;
+	background-color: grey;
+	
+
 }
