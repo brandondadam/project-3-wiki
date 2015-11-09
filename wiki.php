@@ -26,11 +26,11 @@
 				<textarea name="content" rows="8" cols"80"></textarea>
 				<input type="submit" value="Save">
 			</form>
-			<script>
+			<script
 			$('#content').click(function() {
 				$('form').removeClass('hidden');
 				$('#content').addClass('hidden');
 			});
-			</script>
+			></script>
 	</body>
 </html>
