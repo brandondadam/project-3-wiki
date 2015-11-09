@@ -16,22 +16,14 @@
 				$content = $_GET['content'];
 				file_put_contents('wiki.txt', $content);
 			}
-			
+			$safe_content = htmlentities($content);
 
 			?>
+			<div id="content">
+				<?php echo $safe_content; ?>
+			</div>
 			<form action="wiki.php">
 				<textarea name="content" rows="8" cols"80">
-					<?php
-					$safe_content = htmlentities($content);
-					?>
-					<div id="content">
-						<?php echo $safe_content; ?>
-					</div>
-
-
-
-
-
 				</textarea>
 				<input type="submit" value="Save">
 			</form>
