@@ -24,7 +24,7 @@
 			</div>
 			<form action="wiki.php" method="post">
 				<textarea name="content" rows="8" cols"80"></textarea>
-				<input type="submit" value="Save">
+				<input type="submit" name="go" value="Save">
 			</form>
 			<script
 				$('#content').click(function() {
