@@ -2,6 +2,9 @@ html{
 	font-family: helvetica,sans-serif;
 }
 
+textarea{
+	width: 100%
+}
 .hidden {
 		display: none;
 }
