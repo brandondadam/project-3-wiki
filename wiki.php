@@ -22,7 +22,7 @@
 			<div id="content">
 				<?php echo $safe_content; ?>
 			</div>
-			<form action="wiki.php">
+			<form action="wiki.php" method="post">
 				<textarea name="content" rows="8" cols"80"></textarea>
 				<input type="submit" value="Save">
 			</form>
