@@ -11,13 +11,11 @@
 			} else {
 				$content = '(no content)';
 			}
-
 			if (isset($_GET['content'])) {
 				$content = $_GET['content'];
 				file_put_contents('wiki.txt', $content);
 			}
 			$safe_content = htmlentities($content);
-
 			?>
 			<div id="content">
 				<?php echo $safe_content; ?>
