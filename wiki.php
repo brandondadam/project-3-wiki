@@ -14,7 +14,7 @@
 
 			if (isset($_Get['content'])) {
 				$content = $_Get['content'];
-				file_put_contents('wiki.txt', $content)
+				file_put_contents('wiki.txt', $content);
 			}
 			safe_content = htmlentities($content);
 			echo $safe_content;
