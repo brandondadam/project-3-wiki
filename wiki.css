@@ -2,16 +2,12 @@ html{
 	font-family: helvetica,sans-serif;
 }
 
+form.right{
+	position:absolute;
+	right:0px;
+	width:300px	
+}
+
 #content{
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
 
-}
-.hidden {
-		display: none;
-}
-
-#content:hover {
-    background: #ff9;
 }
