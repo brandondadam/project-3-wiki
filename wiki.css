@@ -3,18 +3,16 @@ html{
 }
 
 textarea{
+	box-sizing:border-box;
 	border-style: none;
+	width: 300px;
+	height: 150px;
+	color: white;
+	background-color: lightgrey;
 
 }
 
 #content{
 	box-sizing:border-box;
 	margin: none;
-
-	width: 300px;
-	height: 150px;
-	color: white;
-	background-color: lightgrey;
-
-
 }
