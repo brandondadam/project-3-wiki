@@ -2,12 +2,8 @@ html{
 	font-family: helvetica,sans-serif;
 }
 
-form.right{
+#content.right{
 	position:absolute;
 	right:0px;
-	width:300px	
-}
-
-#content{
-
+	width:300px
 }
