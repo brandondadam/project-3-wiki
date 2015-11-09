@@ -5,6 +5,7 @@ html{
 textarea{
 	box-sizing:border-box;
 	border-style: none;
+	resize:none;
 	width: 200px;
 	height: auto;
 	color: white;
