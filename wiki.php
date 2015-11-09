@@ -6,8 +6,8 @@
 	</head>
 	<body>
 		<?php
-			if (file_exists('wiki.txt')){
-				$contnet  file_get_contents('wiki.txt');
+			if (file_exists('wiki.txt')) {
+				$contnet = file_get_contents('wiki.txt');
 			} else {
 				$content = '(no content)';
 			}
