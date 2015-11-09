@@ -16,8 +16,8 @@
 				$content = $_GET['content'];
 				file_put_contents('wiki.txt', $content);
 			}
-			$safe_content = htmlentities($content);
-			echo $safe_content;
+			
+
 			?>
 			<form action="wiki.php">
 				<textarea name="content" rows="8" cols"80">
