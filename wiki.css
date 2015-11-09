@@ -7,8 +7,9 @@ textarea{
 }
 
 #content{
+	width: 300px
 	color: white;
 	background-color: grey;
-	
+
 
 }
