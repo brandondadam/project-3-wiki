@@ -19,5 +19,9 @@
 			$safe_content = htmlentities($content);
 			echo $safe_content;
 			?>
+			<form action="wiki.php">
+				<textarea name="content" rows="8" cols"80"></textarea>
+				<input type="submit" value="Save">
+			</form>			
 	</body>
 </html>
