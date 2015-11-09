@@ -4,6 +4,7 @@ html{
 
 textarea{
 	width: 100%
+	padding: 25px
 }
 .hidden {
 		display: none;
