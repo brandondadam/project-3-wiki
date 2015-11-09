@@ -5,7 +5,7 @@ html{
 textarea{
 	box-sizing:border-box;
 	border-style: hidden;
-	border-width: thick;
+	padding-left: 20px;
 	resize:none;
 	width: 250px;
 	height: 720px;
