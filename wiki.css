@@ -3,7 +3,8 @@ html{
 }
 
 textarea{
-	color: grey;
+	color: white;
+	background-color: grey;
 }
 
 #content.right{
