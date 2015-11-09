@@ -1,6 +1,9 @@
 html{
 	font-family: helvetica,sans-serif;
 }
+form{
+	color: grey;
+}
 
 #content.right{
 	position:absolute;
