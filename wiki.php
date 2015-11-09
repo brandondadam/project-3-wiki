@@ -23,12 +23,13 @@
 				<?php echo $safe_content; ?>
 			</div>
 			<form action="wiki.php">
-				<textarea name="content" rows="8" cols"80">Type message here!</textarea>
+				<textarea name="content" rows="8" cols"80"></textarea>
 				<input type="submit" value="Save">
 			</form>
 			<script src="jquery-1.11.3.min.js"></script>
 			<script
-				$('#content').click(submit() {
+			document.getElementsByID('form').submit();
+				$('#content').click(function() {
 					$('form').removeClass('hidden');
 					$('#content').addClass('hidden');
 				});
