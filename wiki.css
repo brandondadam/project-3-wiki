@@ -1,6 +1,7 @@
 #content.hidden {
 		display: none;
 }
+
 #content:hover {
     background: #ff9;
 }
