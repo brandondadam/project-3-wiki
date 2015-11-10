@@ -26,7 +26,9 @@
 				<textarea name="content" id="type" placeholder="type a message here." rows="8" cols"80"></textarea>
 			</form>
 			<div id="content">
+				<p1>
 				<?php echo $safe_content; ?>
+				</p1>
 			</div>
 			<script src="jquery-1.11.3.min.js"></script>
 			<script>
