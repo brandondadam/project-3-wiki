@@ -8,8 +8,12 @@ html{
 
 }
 
+h1{
+	box-sizing: border-box;
+
+}
+
 textarea{
-	margin-top: 100px;
 	box-sizing:border-box;
 	border-style: hidden;
 	font-size: 35pt;
