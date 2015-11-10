@@ -21,7 +21,7 @@
 				file_put_contents('wiki.txt', $content);
 			}
 			$safe_content = htmlentities($content);
-			?>
+		?>
 			<form action="wiki.php" id="wikiForm" onsubmit="return false;" onKeydown="return addText(event);">
 				<textarea name="content" id="type" placeholder="type a message here." rows="8" cols"80"></textarea>
 			</form>

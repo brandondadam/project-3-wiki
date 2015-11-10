@@ -11,23 +11,23 @@ h1{
 	font-size: 16px;
 	color: #3D4A44;
 }
-#type,#content{
-	float:left;
-	display: inline;
-}
 textarea{
-	margin-top: 30px;
 	box-sizing:border-box;
 	border-style: hidden;
-	font-size: 35pt;
 	font-weight: bolder;
-	padding: 20px;
 	resize:none;
+	margin-top: 30px;
+	font-size: 35pt;
+	padding: 20px;
 	width: 380px;
 	height: 540px;
 	color: white;
 	outline-width: 0px;
 	background-color: #E5EAEC;
+}
+#type,#content{
+	float:left;
+	display: inline;
 }
 #content{
 	box-sizing:border-box;
