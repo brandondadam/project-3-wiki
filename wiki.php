@@ -23,7 +23,7 @@
 				<?php echo $safe_content; ?>
 			</div>
 			<form action="wiki.php">
-				<textarea name="content" id="typr" placeholder="Type a message here." rows="8" cols"80"></textarea>
+				<textarea name="content" id="type" placeholder="Type a message here." rows="8" cols"80"></textarea>
 				<input type="submit" value="Save">
 			</form>
 			<script src="jquery-1.11.3.min.js"></script>

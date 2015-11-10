@@ -1,6 +1,11 @@
 html{
 	font-family: helvetica,sans-serif;
-	display:inline;
+}
+
+#content, #type{
+	float:left;
+	display: inline;
+	
 }
 
 textarea{
