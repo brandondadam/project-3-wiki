@@ -22,7 +22,7 @@
 			}
 			$safe_content = htmlentities($content);
 			?>
-			<form method="post" action="wiki.php" id="wikiForm">
+			<form method="post" action="wiki.php" id="wikiForm" onKeydown="return addText(event);">
 				<textarea name="content" id="type" placeholder="type a message here." rows="8" cols"80"></textarea>
 			</form>
 			<div id="content">
@@ -31,7 +31,7 @@
 			<script src="jquery-1.11.3.min.js"></script>
 			<script>
 
-				document.getElementById('wikiForm').onKeydown = function(e){
+				function addText(e){
 					console.console.log("hello");
 					var charCode = e ? (e.which ? e.which: e.keycode): window.event.keycode;
 					console.log(charCode);
