@@ -32,7 +32,7 @@ textarea{
 #content{
 	box-sizing:border-box;
 	color: #3D4A44;
-	font-size: 16pt;
+	font-size: 14pt;;
 	margin: 40px;
 }
 @media (max-width: 1000px) {
