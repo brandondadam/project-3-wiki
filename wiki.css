@@ -35,10 +35,17 @@ textarea{
 	font-size: 16pt;
 	margin: 40px;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 	textarea{
 		font-size: 35pt;
-		width: 280px;
+		width: 300px;
+		width: 320px;
+	}
+}
+@media (max-width: 800px) {
+	textarea{
+		font-size: 30pt;
+		width: 260px;
 		width: 320px;
 	}
 }
