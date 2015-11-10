@@ -30,9 +30,10 @@ textarea{
 
 }
 
-#type{
+#type.placeholder{
 	color: white;
 }
+
 #content{
 	box-sizing:border-box;
 	color: #3D4A44;
