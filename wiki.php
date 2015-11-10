@@ -39,7 +39,7 @@
 				$('#type').keypress(function(e) {
 					if(e.which == 13) {
 						$('form#wiki').submit();
-					}
+				  }
 				})
 			></script>
 	</body>
