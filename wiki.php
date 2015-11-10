@@ -22,19 +22,25 @@
 			}
 			$safe_content = htmlentities($content);
 			?>
-			<form action="wiki.php" method="post">
+			<form method="post" action="wiki.php" id="wikiForm"onsubmit="return false;" onkeypress="return addedText();">
 				<textarea name="content" id="type" placeholder="type a message here." rows="8" cols"80"></textarea>
-				<input type="submit" value="Save">
 			</form>
 			<div id="content">
 				<?php echo $safe_content; ?>
 			</div>
 			<script src="jquery-1.11.3.min.js"></script>
 			<script
+			function addedText(){
+				var charCode = window.event.keycode;
+				if(charCode==13){
+					document.getElementById("wikiForm").submit();
+				}
+			}
 				$('#content').click(function() {
 					$('form').removeClass('hidden');
 					$('#content').addClass('hidden');
 				});
+
 
 
 			></script>
