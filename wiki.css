@@ -2,30 +2,35 @@ html{
 	font-family: helvetica,sans-serif;
 }
 
-#type,#content{
+#type,#content,#line{
 	float:left;
 	display: inline;
-
 }
 
 h1{
 	font-size: 20pt;
-	margin-left: 50px;
+	margin-left: 70px;
 	margin-top: 50px;
 	font-weight: lighter;
 	box-sizing: border-box;
 
 }
 
+#line{
+	color: grey;
+	background: black;
+	height: 2px;
+}
+
 textarea{
 	box-sizing:border-box;
 	border-style: hidden;
-	margin-top: 20px;
+	margin-top: 50px;
 	font-size: 35pt;
 	font-weight: bolder;
-	padding: 20px;
+	padding: 30px;
 	resize:none;
-	width: 250px;
+	width: 350px;
 	height: 680px;
 	color: white;
 	background-color: lightgrey;
