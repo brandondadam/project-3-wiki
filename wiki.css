@@ -3,7 +3,7 @@ html{
 }
 
 #type,#content{
-	float:left;
+
 	display: inline;
 }
 
