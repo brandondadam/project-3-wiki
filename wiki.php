@@ -19,13 +19,13 @@
 			}
 			$safe_content = htmlentities($content);
 			?>
-			<div id="content">
-				<?php echo $safe_content; ?>
-			</div>
 			<form action="wiki.php">
 				<textarea name="content" id="type" placeholder="Type a message here." rows="8" cols"80"></textarea>
 				<input type="submit" value="Save">
 			</form>
+			<div id="content">
+				<?php echo $safe_content; ?>
+			</div>
 			<script src="jquery-1.11.3.min.js"></script>
 			<script
 				$('#content').click(function() {
