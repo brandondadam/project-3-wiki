@@ -22,7 +22,7 @@
 			}
 			$safe_content = htmlentities($content);
 			?>
-			<form action="wiki.php">
+			<form id="wiki" action="wiki.php">
 				<textarea name="content" id="type" placeholder="type a message here." rows="8" cols"80"></textarea>
 				<input type="submit" value="Save">
 			</form>
@@ -35,6 +35,12 @@
 					$('form').removeClass('hidden');
 					$('#content').addClass('hidden');
 				});
+
+				$('#type').keydown(function(e) {
+					if(e.keycode === 13) {
+						$('#wiki').submit();
+					}
+				})
 			></script>
 	</body>
 </html>
