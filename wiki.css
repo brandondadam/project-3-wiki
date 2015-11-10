@@ -11,7 +11,8 @@ html{
 h1{
 	font-size: 20pt;
 	margin-left: 20px;
-	font-weight: ;
+	margin-top: 10px;
+	font-weight: lighter;
 	box-sizing: border-box;
 
 }
