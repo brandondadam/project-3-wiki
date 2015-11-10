@@ -2,10 +2,10 @@ html{
 	font-family: helvetica,sans-serif;
 }
 
-#content, #type{
+#type,#content{
 	float:left;
 	display: inline;
-	
+
 }
 
 textarea{
