@@ -23,15 +23,15 @@
 			$safe_content = htmlentities($content);
 			?>
 			<form method="post" action="wiki.php" id="wikiForm">
-				<textarea name="content" id="type" placeholder="type a message here." rows="8" cols"80"></textarea>
+				<textarea name="content" id="type" placeholder="type a message here."></textarea>
 			</form>
 			<div id="content">
 				<?php echo $safe_content; ?>
 			</div>
 			<script src="jquery-1.11.3.min.js"></script>
 			<script>
-				$("#wikiForm").submit();
-				
+				$('#wikiForm').submit();
+
 				$('#content').click(function() {
 					$('form').removeClass('hidden');
 					$('#content').addClass('hidden');
