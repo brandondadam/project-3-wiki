@@ -8,10 +8,11 @@ html{
 }
 
 h1{
+	box-sizing: border-box;
 	font-size: 12pt;
 	margin-left: 20px;
 	margin-top: 70px;
-	box-sizing: border-box;
+
 
 }
 
@@ -32,7 +33,7 @@ textarea{
 	padding: 30px;
 	resize:none;
 	width: 350px;
-	height: 600px;
+	height: 540px;
 	color: white;
 	background-color: gainsboro;
 }
