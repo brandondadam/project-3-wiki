@@ -42,13 +42,8 @@ textarea{
 		resize:none;
 		width: 320px;
 		height: 540px;
-		color: white;
-		outline-width: 0px;
-		background-color: #E5EAEC;
 	}
 	#content{
-		box-sizing:border-box;
-		color: #3D4A44;
 		margin: 35px;
 	}
 }
