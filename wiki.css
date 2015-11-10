@@ -9,6 +9,7 @@ html{
 }
 
 textarea{
+	margin-top: 20px;
 	box-sizing:border-box;
 	border-style: hidden;
 	font-size: 35pt;
