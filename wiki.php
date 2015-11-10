@@ -32,7 +32,7 @@
 			<script>
 
 				function addText(e){
-					console.console.log("hello");
+					console.log("hello");
 					var charCode = e ? (e.which ? e.which: e.keycode): window.event.keycode;
 					console.log(charCode);
 					if (charCode == 13){
