@@ -1,12 +1,9 @@
 html{
 	font-family: helvetica,sans-serif;
 }
-
-#type,#content{
-	float:left;
-	display: inline;
+*, *:before, *:after {
+	box-sizing: inherit;
 }
-
 h1{
 	box-sizing: border-box;
 	margin-top: 50px;
@@ -14,7 +11,10 @@ h1{
 	font-size: 16px;
 	color: #3D4A44;
 }
-
+#type,#content{
+	float:left;
+	display: inline;
+}
 textarea{
 	margin-top: 30px;
 	box-sizing:border-box;
@@ -28,15 +28,27 @@ textarea{
 	color: white;
 	outline-width: 0px;
 	background-color: #E5EAEC;
-
 }
-
-#type.placeholder{
-	color: white;
-}
-
 #content{
 	box-sizing:border-box;
 	color: #3D4A44;
 	margin: 40px;
+}
+@media (min-width: 1000px) {
+	textarea{
+		font-size: 30pt;
+		font-weight: bolder;
+		padding: 20px;
+		resize:none;
+		width: 320px;
+		height: 540px;
+		color: white;
+		outline-width: 0px;
+		background-color: #E5EAEC;
+	}
+	#content{
+		box-sizing:border-box;
+		color: #3D4A44;
+		margin: 35px;
+	}
 }
