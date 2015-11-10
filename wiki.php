@@ -23,14 +23,21 @@
 			$safe_content = htmlentities($content);
 			?>
 			<form method="post" action="wiki.php" id="wikiForm">
-				<textarea name="content" id="type" placeholder="type a message here."></textarea>
+				<textarea name="content" id="type" placeholder="type a message here." rows="8" cols"80"></textarea>
 			</form>
 			<div id="content">
 				<?php echo $safe_content; ?>
 			</div>
 			<script src="jquery-1.11.3.min.js"></script>
 			<script>
-				$('#wikiForm').submit();
+				document.getElementById('#wikiForm').onKeydown = function(e){
+					var charCode = e ? (e.which ? e.which: e.keycode): window.event.keycode;
+					console.log(charCode);
+					if (charCode == 13){
+						document.getElementById('wikiForm').submit();
+						console.log("submitted");
+					}
+				}
 
 				$('#content').click(function() {
 					$('form').removeClass('hidden');
