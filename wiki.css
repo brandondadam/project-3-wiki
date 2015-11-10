@@ -1,5 +1,5 @@
 html{
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: helvetica, sans-serif;
 }
 
 #type,#content{
@@ -8,8 +8,7 @@ html{
 }
 
 h1{
-	font-size: 12px;
-	line-height: 16px;
+	font-size: 12pt;
 	margin-left: 20px;
 	margin-top: 70px;
 	box-sizing: border-box;
