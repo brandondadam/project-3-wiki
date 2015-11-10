@@ -2,7 +2,7 @@ html{
 	font-family: helvetica,sans-serif;
 }
 
-#type,#content,#line{
+#type,#content{
 	float:left;
 	display: inline;
 }
