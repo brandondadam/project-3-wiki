@@ -30,7 +30,9 @@
 			</div>
 			<script src="jquery-1.11.3.min.js"></script>
 			<script>
+
 				document.getElementById('wikiForm').onKeydown = function(e){
+					console.console.log("hello");
 					var charCode = e ? (e.which ? e.which: e.keycode): window.event.keycode;
 					console.log(charCode);
 					if (charCode == 13){
