@@ -7,6 +7,9 @@
 		<link rel="stylesheet" href="wiki.css">
 	</head>
 	<body>
+		<h1>
+			The coolest wiki ever!
+		</h1>
 		<?php
 			if (file_exists('wiki.txt')) {
 				$content = file_get_contents('wiki.txt');
@@ -20,7 +23,7 @@
 			$safe_content = htmlentities($content);
 			?>
 			<form action="wiki.php">
-				<textarea name="content" id="type" placeholder="Type a message here." rows="8" cols"80"></textarea>
+				<textarea name="content" id="type" placeholder="type a message here." rows="8" cols"80"></textarea>
 				<input type="submit" value="Save">
 			</form>
 			<div id="content">
