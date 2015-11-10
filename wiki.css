@@ -12,16 +12,6 @@ h1{
 	font-size: 12pt;
 	margin-left: 20px;
 	margin-top: 70px;
-
-
-}
-
-#line{
-	color: grey;
-	background-color: black;
-
-	width: 50%;
-	height: 2px;
 }
 
 textarea{
