@@ -9,8 +9,9 @@ html{
 }
 
 h1{
+	font-size: 20pt;
 	margin-left: 20px;
-	font-weight: lighter;
+	font-weight: ;
 	box-sizing: border-box;
 
 }
