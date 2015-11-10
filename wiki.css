@@ -36,22 +36,15 @@ textarea{
 }
 @media (max-width: 800px) {
 	textarea{
-		font-size: 30pt;
-		font-weight: bolder;
-		padding: 20px;
+		font-size: 35pt;
 		width: 320px;
-		height: 540px;
-	}
-	#content{
-		margin: 35px;
 	}
 }
 @media (max-width: 600px) {
 	textarea{
 		font-size: 25pt;
-		font-weight: bolder;
 		padding: 15px;
-		width: 290px;
+		width: 220px;
 		height: 540px;
 	}
 	#content{
