@@ -9,6 +9,9 @@ html{
 
 h1{
 	box-sizing: border-box;
+	margin-top: 50px;
+	font-size: 12px;
+	color: #60746A;
 }
 
 textarea{
