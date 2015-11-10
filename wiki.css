@@ -9,7 +9,7 @@ html{
 }
 
 textarea{
-	margin-top: 20px;
+	margin-top: 50px;
 	box-sizing:border-box;
 	border-style: hidden;
 	font-size: 35pt;
@@ -25,5 +25,5 @@ textarea{
 
 #content{
 	box-sizing:border-box;
-	margin: 40px;
+
 }
