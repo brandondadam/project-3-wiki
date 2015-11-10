@@ -5,7 +5,10 @@ html{
 #type,#content{
 	float:left;
 	display: inline;
+}
 
+h1{
+	box-sizing: border-box;
 }
 
 textarea{
@@ -16,10 +19,10 @@ textarea{
 	font-weight: bolder;
 	padding: 20px;
 	resize:none;
-	width: 250px;
+	width: 380px;
 	height: 720px;
 	color: white;
-	background-color: lightgrey;
+	background-color: #E5EAEC;
 
 }
 
