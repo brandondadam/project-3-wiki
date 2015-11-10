@@ -34,16 +34,27 @@ textarea{
 	color: #3D4A44;
 	margin: 40px;
 }
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
 	textarea{
 		font-size: 30pt;
 		font-weight: bolder;
 		padding: 20px;
-		resize:none;
 		width: 320px;
 		height: 540px;
 	}
 	#content{
 		margin: 35px;
+	}
+}
+@media (max-width: 800px) {
+	textarea{
+		font-size: 25pt;
+		font-weight: bolder;
+		padding: 15px;
+		width: 290px;
+		height: 540px;
+	}
+	#content{
+		margin: 30px;
 	}
 }
