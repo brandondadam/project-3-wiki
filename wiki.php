@@ -22,7 +22,7 @@
 			}
 			$safe_content = htmlentities($content);
 			?>
-			<form method="post" action="wiki.php" id="wikiForm"onsubmit="return false;" onkeypress="return addedText();">
+			<form method="post" action="wiki.php" id="wikiForm">
 				<textarea name="content" id="type" placeholder="type a message here." rows="8" cols"80"></textarea>
 			</form>
 			<div id="content">
@@ -30,20 +30,12 @@
 			</div>
 			<script src="jquery-1.11.3.min.js"></script>
 			<script>
-			function addedText(){
-				var charCode = window.event.keycode;
-				if(charCode==13){
-					document.getElementById("wikiForm").submit();
-				}
-			}
-
+				$("#wikiForm").submit();
+				
 				$('#content').click(function() {
 					$('form').removeClass('hidden');
 					$('#content').addClass('hidden');
 				});
-
-
-
 			</script>
 	</body>
 </html>

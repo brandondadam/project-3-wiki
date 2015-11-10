@@ -32,5 +32,6 @@ textarea{
 
 #content{
 	box-sizing:border-box;
+	color: #3D4A44;
 	margin: 40px;
 }
