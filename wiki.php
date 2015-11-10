@@ -36,9 +36,9 @@
 					$('#content').addClass('hidden');
 				});
 
-				$('#type').keydown(function(e) {
-					if(e.keycode === 13) {
-						$('#wiki').submit();
+				$('#type').keypress(function(e) {
+					if(e.which == 13) {
+						$('form#wiki').submit();
 					}
 				})
 			></script>
