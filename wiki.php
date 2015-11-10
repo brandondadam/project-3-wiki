@@ -29,13 +29,14 @@
 				<?php echo $safe_content; ?>
 			</div>
 			<script src="jquery-1.11.3.min.js"></script>
-			<script
+			<script>
 			function addedText(){
 				var charCode = window.event.keycode;
 				if(charCode==13){
 					document.getElementById("wikiForm").submit();
 				}
 			}
+
 				$('#content').click(function() {
 					$('form').removeClass('hidden');
 					$('#content').addClass('hidden');
@@ -43,6 +44,6 @@
 
 
 
-			></script>
+			</script>
 	</body>
 </html>
