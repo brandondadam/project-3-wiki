@@ -9,8 +9,8 @@ html{
 
 h1{
 	font-size: 20pt;
-	margin-left: 70px;
-	margin-top: 50px;
+	margin-left: 100px;
+	margin-top: 70px;
 	font-weight: lighter;
 	box-sizing: border-box;
 
@@ -18,15 +18,15 @@ h1{
 
 #line{
 	color: grey;
-	background: black;
-	width: 75%;
+
+	width: 50%;
 	height: 2px;
 }
 
 textarea{
 	box-sizing:border-box;
 	border-style: hidden;
-	margin-top: 50px;
+	margin-top: 40px;
 	font-size: 35pt;
 	font-weight: bolder;
 	padding: 30px;
@@ -34,8 +34,7 @@ textarea{
 	width: 350px;
 	height: 680px;
 	color: white;
-	background-color: lightgrey;
-
+	background-color: silver;
 }
 
 #content{
