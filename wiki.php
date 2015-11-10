@@ -30,17 +30,12 @@
 			</div>
 			<script src="jquery-1.11.3.min.js"></script>
 			<script>
-
 				function addText(e){
-					console.log("hello");
 					var charCode = e ? (e.which ? e.which: e.keycode): window.event.keycode;
-					console.log(charCode);
 					if (charCode == 13){
 						document.getElementById('wikiForm').submit();
-						console.log("submitted");
 					}
 				}
-
 				$('#content').click(function() {
 					$('form').removeClass('hidden');
 					$('#content').addClass('hidden');
