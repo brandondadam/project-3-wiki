@@ -26,6 +26,7 @@ textarea{
 	width: 380px;
 	height: 540px;
 	color: white;
+	outline-width: 0px;
 	background-color: #E5EAEC;
 
 }
